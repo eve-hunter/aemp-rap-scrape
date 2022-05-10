@@ -1,6 +1,7 @@
 # Oakland Rent Adjustment Program (RAP) scrape
 This is a scrape of https://apps.oaklandca.gov/rappetitions/SearchCases.aspx
 
+```
 .
 ├── cleaning
 │   └── rap-scrape-cleaning-pipeline.ipynb        
@@ -17,7 +18,7 @@ This is a scrape of https://apps.oaklandca.gov/rappetitions/SearchCases.aspx
 ├── poetry.lock           
 ├── pyproject.toml
 └── README.md
-
+```
 
 ### ./scraper/rap_scrape.py
 Contains the selenium-based scraper. You can define a date range, then run the scraper for that date range. It's reasonably well-documented in the .py file.
